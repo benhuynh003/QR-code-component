@@ -1,0 +1,84 @@
+body {
+    background-color: hsl(212, 45%, 89%);
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Outfit", sans-serif;
+}
+
+#QR-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+    height: 100vh;
+}
+
+#QR-box {
+    width: 18%;
+    height: 60%;
+    background-color: white;
+    border-radius: 20px;
+}
+
+#QR-box img {
+    width: 85%;
+    height: 55%;
+    margin: 20px;
+    border-radius: 10px;
+}
+
+#text h1 {
+    font-weight: 700;
+    color: hsl(218, 44%, 22%);
+    font-size: 25px;
+    margin: 10px;
+}
+
+#text p {
+    font-weight: 400;
+    font-size: 15px;
+    color: hsl(220, 15%, 55%);
+    margin:  20px;
+    padding: 0 25px;
+}
+
+@media all and (max-width: 667px) {
+    #QR-box {
+        width: 85%;
+        height: 75%;
+    }
+}
+
+@media all and (min-width: 1440px) {
+    #QR-box {
+        width: 23%;
+        height: 66%;
+    }
+}
+
+@media all and (min-height: 1056px) {
+    #QR-box {
+        width: 23%;
+        height: 50%;
+    }
+}
+
+@media all and (min-width: 1920px) {
+    #QR-box {
+        width: 18%;
+        height: 60%;
+    }
+}
+
+@media all and (min-height: 1080px) {
+    #QR-box {
+        width: 18%;
+        height: 50%;
+    }
+}
+
+/* mobile design: 375x667 */
+/* desktop design: 1440x800 */
+/* desktop preview design: 1440 x 1056 */
