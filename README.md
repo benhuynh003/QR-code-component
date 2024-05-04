@@ -19,7 +19,7 @@ An introductory project to HTML & CSS by building a website with a QR code compo
 ### Links
 
 - Solution URL: [https://www.frontendmentor.io/solutions/qr-code-component-HcH3MxYNHE]
-- Live Site URL: [https://benhuynh003.github.io/QR-code-component/]
+- Live Site URL: [https://benhyh.github.io/QR-code-component/]
 
 ## My process
 
